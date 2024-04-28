@@ -1,0 +1,60 @@
+.containerProfile{
+    border: solid 2px #000;
+    border-radius: 10px;
+
+    width: 300px;
+    transition: 0.2s;
+}
+
+.profileLogo{
+    padding: 30px 30px 0px 30px;
+}
+
+.profileLogoImg{
+    background: #000000d9;
+    border-radius: 100px;
+}
+
+.profileName{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.profileTag{
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.profileLocation{
+    margin-top: 5px;
+    color: grey;
+}
+
+.profileList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+   
+    margin: 0px;
+    padding:0px;
+    background: rgba(128, 128, 128, 0.36);
+}
+
+.profileItem{
+    border: solid 1px ;
+    border-top: 1px solid rgba(128, 128, 128, 0.59);
+  border-right: 1px solid rgba(128, 128, 128, 0.59);
+  border-left: 0px;
+  border-bottom: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+} 
+
+.profileItemText{
+    font-size: 19px;
+    font-weight: 900;
+}

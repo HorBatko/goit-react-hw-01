@@ -1,0 +1,15 @@
+
+
+.ItemText{
+    margin-bottom: 5px;
+}
+
+.isOnline{
+    color: rgb(82, 255, 47);
+    margin: 0px;
+}
+
+.isOffline{
+    color: red;
+    margin: 0px;
+}
