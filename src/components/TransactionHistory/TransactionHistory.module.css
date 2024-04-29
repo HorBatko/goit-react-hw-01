@@ -13,6 +13,10 @@ td{
 }
 
 .transTr{
-    background-color: #000000c9;
+    background-color: #2a2a2a;
     color: aliceblue;
 }
+
+.rowStyle:nth-child(even) {
+    background-color: #d3d3d3;
+  }

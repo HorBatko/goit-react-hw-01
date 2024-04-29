@@ -14,23 +14,27 @@ const TransactionHistory = ({items}) => {
   <tbody>
     {items.map( (item) => {
         return (
-            <tr key={item.id}>
-               <td>{item.type}</td>
+            <tr key={item.id} className={css.rowStyle}>
+               <td>{capitalizeText(item.type)}</td>
                <td>{item.amount}</td>
                <td>{item.currency}</td>
              </tr>
         );
     } 
     )}
-    
-    <tr>
-      <td>Withdrawal</td>
-      <td>85</td>
-      <td>USD</td>
-    </tr>
   </tbody>
 </table> 
     )
 }
+
+function capitalizeText(text) {
+    if (!text.length) {
+      return "";
+    }
+    const firstLetter = text.charAt(0);
+    const firstLetterCap = firstLetter.toUpperCase();
+    const remainingLetters = text.slice(1);
+    return firstLetterCap + remainingLetters;
+  }
 
 export default TransactionHistory;
