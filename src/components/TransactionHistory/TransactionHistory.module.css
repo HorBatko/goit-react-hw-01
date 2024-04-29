@@ -1,0 +1,18 @@
+.transactionTable,
+th,
+td{
+    border: solid 0.5px #000;
+    border-spacing: 0;
+    font-size: 18px;
+    
+}
+
+th,
+td{
+    padding: 15px 45px;
+}
+
+.transTr{
+    background-color: #000000c9;
+    color: aliceblue;
+}
